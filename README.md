@@ -19,60 +19,60 @@ In this project, we use Python and jupyter notebook to evaluate different machin
 - Undersampling ClusterCentroids algorithm
 
 ### RandomOverSampler Model
+- Balanced accuracy score: 66%
+- High risk precision is around 1% and sensitivity is 66% resulting in an F1 of 2%
+- A high number of low risk population results in a precision of 99% and a sensitivity of 67%
+
 ![](RandomOverSamplerModel1.PNG)
 ![](RandomOverSamplerModel2.PNG)
 ![](RandomOverSamplerModel3.PNG)
 
-- Balanced accuracy score: 66%
-- High risk precision is around 1% and sensitivity is 62% resulting in an F1 of 2%
-- A high number of low risk population results in a precision of almost 100% but a sensitivity of 68%
-
 ### SMOTE Model
+- Balanced accuracy score: 63%
+- High risk precision is around 1% and sensitivity is 62% resulting in an F1 of 2%
+- Again, a high number of low risk population results in a precision of almost 100% but a sensitivity of 64%
+
 ![](SmoteModel1.PNG)
 ![](SmoteModel2.PNG)
 ![](SmoteModel3.PNG)
 
-- Balanced accuracy score: 64%
-- High risk precision is around 1% and sensitivity is 63% resulting in an F1 of 2%
-- Again, a high number of low risk population results in a precision of almost 100% but a sensitivity of 66%
-
 ### ClusterCentroids Model
+- Balanced accuracy score: 51%
+- High risk precision is 1% and sensitivity is 59% resulting in an F1 of 1%
+- The high number of false positives results in a low risk sensitivity of 43%
+
 ![](ClusterCentroidsModel1.PNG)
 ![](ClusterCentroidsModel2.PNG)
 ![](ClusterCentroidsModel3.PNG)
 
-- Balanced accuracy score: 52%
-- High risk precision is 1% and sensitivity is 63% resulting in an F1 of 1%
-- The high number of false positives results in a low risk sensitivity of 40%
-
 ## Deliverable 2: Use the SMOTEENN algorithm to Predict Credit Risk
+- Balanced accuracy score: 62%
+- High risk precision is 1% and sensitivity is 70% resulting in an F1 of 2%
+- The high number of false positives results in a the low risk sensitivity of 54%
+
 ![](SmoteennModel1.PNG)
 ![](SmoteennModel2.PNG)
 ![](SmoteennModel3.PNG)
 
-- Balanced accuracy score: 62%
-- High risk precision is 1% and sensitivity is 68% resulting in an F1 of 2%
-- The high number of false positives results in a the low risk sensitivity of 57%
-
 ## Deliverable 3: Use Ensemble Classifiers to Predict Credit Risk
 
 ### BalancedRandomForestClassifier Model
+- Balanced accuracy score: 78%
+- High risk precision is 4% and sensitivity is 67% resulting in an F1 of 7%
+- The low number of false positives results in a low risk sensitivity of 91% and 99% presicion
+
 ![](BalancedRandomForestClassifierModel.PNG)
 ![](BalancedRandomForestClassifierModel2.PNG)
 ![](BalancedRandomForestClassifierModel3.PNG)
 
-- Balanced accuracy score: 79%
-- High risk precision is 4% and sensitivity is 67% resulting in an F1 of 7%
-- The low number of false positives results in a low risk sensitivity of 91% and 100% presicion
-
 ### EasyEnsembleClassifier Model
+- Balanced accuracy score: 92.5%
+- High risk precision is 7% and sensitivity is 91% resulting in an F1 of 14%
+- A low number of false positives results in a low risk sensitivity of 94% with 99% presicion
+
 ![](EasyEnsembleClassifierModel1.PNG)
 ![](EasyEnsembleClassifierModel2.PNG)
 ![](EasyEnsembleClassifierModel3.PNG)
-
-- Balanced accuracy score: 93%
-- High risk precision is 7% and sensitivity is 91% resulting in an F1 of 14%
-- A low number of false positives results in a low risk sensitivity of 94% with 100% presicion
 
 ## Summary
 The credit risk analysis models have weak precision to determine if credit risk is high. Though, the Ensemble models have higher sensitivity of the high risk credits.
