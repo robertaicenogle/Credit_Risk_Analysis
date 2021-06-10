@@ -21,28 +21,36 @@ In this project, we use Python and jupyter notebook to evaluate different machin
 - Using these algorithms, resample the dataset, view the count of the target classes, train a logistic regression classifier, calculate the balanced accuracy score, generate a confusion matrix, and generate a classification report
 
 ### RandomOverSampler Model
-Results
+![](RandomOverSamplerModel1.PNG)
+![](RandomOverSamplerModel2.PNG)
+![](RandomOverSamplerModel3.PNG)
 
 ### SMOTE Model
-Results
+![](SmoteModel1.PNG)
+![](SmoteModel3.PNG)
+![](SmoteModel3.PNG)
 
 ### ClusterCentroids Model
-Results
-
+![](ClusterCentroidsModel1.PNG)
+![](ClusterCentroidsModel2.PNG)
+![](ClusterCentroidsModel3.PNG)
 
 ## Deliverable 2: Use the SMOTEENN algorithm to Predict Credit Risk
-Results
-
+![](SmoteennModel1.PNG)
+![](SmoteennModel2.PNG)
+![](SmoteennModel3.PNG)
 
 ## Deliverable 3: Use Ensemble Classifiers to Predict Credit Risk
-Results
 
 ### BalancedRandomForestClassifier Model
-Results
+![](BalancedRandomForestClassifierModel.PNG)
+![](BalancedRandomForestClassifierModel2.PNG)
+![](BalancedRandomForestClassifierModel3.PNG)
 
 ### EasyEnsembleClassifier Model
-Results
-
+![](EasyEnsembleClassifierModel1.PNG)
+![](EasyEnsembleClassifierModel2.PNG)
+![](EasyEnsembleClassifierModel3.PNG)
 
 ## Summary
 The credit risk analysis models have weak precision to determine if credit risk is high. Though, the Ensemble models have higher sensitivity of the high risk credits.
