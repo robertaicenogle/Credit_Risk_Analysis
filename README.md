@@ -27,7 +27,7 @@ In this project, we use Python and jupyter notebook to evaluate different machin
 
 ### SMOTE Model
 ![](SmoteModel1.PNG)
-![](SmoteModel3.PNG)
+![](SmoteModel2.PNG)
 ![](SmoteModel3.PNG)
 
 ### ClusterCentroids Model
